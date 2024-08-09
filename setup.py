@@ -35,9 +35,7 @@ setup(
     packages=[
         'nosetimer',
     ],
-    install_requires=[
-        'nose',
-    ],
+    install_requires=["pynose>=1.5.1"],
     license='MIT',
     entry_points={
         'nose.plugins.0.10': [
